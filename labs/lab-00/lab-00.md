@@ -25,7 +25,8 @@ team_data <- tibble(username = usernames, die_roll = nums, colour = colours,
 
 ### Exercise 18
 
-We now work on visualising our data.
+We now work on visualising our data. \# p \<- ggplot(team_data, aes(x =
+username, y = die_roll)) + \# geom_col(fill = team_data\$colour) \# p
 
 ``` r
 # Uncomment the three lines below
@@ -36,8 +37,7 @@ We now work on visualising our data.
 
 ### Exercise 19
 
-*Remove this text (including the stars), and add your answer for
-Exercise 19 here.*
+no change
 
 ### Exercises 20–21
 
